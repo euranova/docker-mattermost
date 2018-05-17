@@ -9,10 +9,6 @@ for the list of changes in Mattermost.
 - Mattermost 4.9.0
 - Refactoring of the image 
 
-## 4.9.0
-
-- mattermost 4.9.0
-
 ## 3.4.0-1
 
 - add error message to require upgrading to 3.0 or 3.1 before any higher version
