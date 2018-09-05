@@ -30,7 +30,7 @@ make build-linux BUILD_NUMBER=${MATTERMOST_VERSION}
 echo "Installing Mattermost..."
 cd ${MATTERMOST_HOME}
 curl -sSL https://releases.mattermost.com/${MATTERMOST_VERSION}/mattermost-team-${MATTERMOST_VERSION}-linux-amd64.tar.gz | tar -xvz
-cp ${GOPATH}/bin/platform ./mattermost/bin/platform
+cp ${GOPATH}/bin/mattermost ./mattermost/bin/mattermost
 
 # cleanup build dependencies, caches and artifacts
 apk del build-dependencies
