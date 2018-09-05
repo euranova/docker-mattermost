@@ -8,7 +8,7 @@ MATTERMOST_BUILD_PATH=${GOPATH}/src/github.com/mattermost
 
 # install build dependencies
 apk --no-cache add --virtual build-dependencies \
-  curl go git mercurial nodejs make g++
+  curl go git mercurial nodejs-current-npm make g++
 
 go get github.com/tools/godep
 npm update npm --global
