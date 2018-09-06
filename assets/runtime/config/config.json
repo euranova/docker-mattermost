@@ -237,5 +237,8 @@
         "TurnURI": "",
         "TurnUsername": "",
         "TurnSharedKey": ""
+    },
+    "PluginSettings": {
+        "EnableUploads": true
     }
 }
