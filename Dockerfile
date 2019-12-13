@@ -26,4 +26,4 @@ EXPOSE 80/tcp
 VOLUME ["${MATTERMOST_DATA_DIR}", "${MATTERMOST_LOG_DIR}"]
 WORKDIR ${MATTERMOST_INSTALL_DIR}
 ENTRYPOINT ["/sbin/entrypoint.sh"]
-CMD ["app:start"]
+CMD ["app:start"] 
