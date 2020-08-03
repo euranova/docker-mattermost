@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM alpine:3.12
 
 ENV MATTERMOST_VERSION=5.25.1 \
     MATTERMOST_HOME="/opt/mattermost"
